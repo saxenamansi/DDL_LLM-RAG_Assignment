@@ -1,9 +1,7 @@
 """
 DataClasses.py
-===============
-Dataclasses shared across the RAG pipeline.
-Kept separate so every other module can import them
-without pulling in heavy dependencies.
+==============
+Shared dataclasses for the ESG RAG pipeline.
 """
 
 from dataclasses import dataclass
@@ -13,16 +11,20 @@ from dataclasses import dataclass
 class PageRecord:
     """Raw text from a single PDF page with provenance metadata."""
     company: str
-    source:  str   # filename
-    page:    int   # 1-based page number
+    source:  str
+    page:    int   # 1-based
     text:    str
+
 
 @dataclass
 class Chunk:
-    """Fixed-size text window with full provenance."""
-    chunk_id: int
-    company:  str
-    source:   str
-    page:     int
-    text:     str
-    chunk_type: str = "text"   # "text" or "table"
+    """
+    Text chunk with provenance. chunk_type is 'table' or 'text'.
+    chunk_id is assigned sequentially by load_and_chunk; default 0 is a placeholder.
+    """
+    company:    str
+    source:     str
+    page:       int
+    text:       str
+    chunk_id:   int = 0
+    chunk_type: str = "text"
