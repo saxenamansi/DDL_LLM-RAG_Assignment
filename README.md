@@ -17,6 +17,8 @@ DDL_LLM-RAG_Assignment/
 ├── RAGEngine.py           # Prompt construction, LLM inference, multi-model runner
 ├── GroundTruth.py         # Verified reference answers for all three questions
 ├── LLM-RAG.ipynb          # Main notebook — run end to end
+├── Discussion.pdf         # Technical design, implementation choices & limitations
+├── ANSWERS.md             # Final answers to all three questions (two best models)
 ├── requirements.txt       # Python dependencies
 └── outputs/               # Per-model answer .txt files, CSV/JSON exports
 ```
@@ -36,7 +38,7 @@ python -m ipykernel install --user --name=ddl_venv
 
 ### Download models
 
-Models must be available locally before running. The pipeline sets `local_files_only=True` and will not download at runtime.
+Models must be available locally before running. The pipeline sets local_files_only=True and will not download at runtime.
 
 ```python
 from huggingface_hub import snapshot_download
@@ -52,6 +54,7 @@ for model_id in models:
 ```
 
 Log in first if models are gated:
+
 ```bash
 huggingface-cli login
 ```
@@ -73,7 +76,7 @@ The PDFs are not included in this repository. They are provided separately with 
 
 ## Running the Pipeline
 
-Open `RAG_updated.ipynb` and run cells top to bottom.
+Open `LLM-RAG.ipynb` and run cells top to bottom.
 
 | Section | What it does |
 |---|---|
@@ -88,7 +91,7 @@ Open `RAG_updated.ipynb` and run cells top to bottom.
 | 11. Ground Truth | Reference answers for all three questions |
 | 12. Approach & Limitations | Discussion notes |
 
-**Expected runtime:** ~10–20 min per small model, ~40–90 min per large quantized model.
+**Expected runtime:** ~10–20 min per small model, ~40–90 min per large quantised model.
 
 ---
 
@@ -113,6 +116,13 @@ Written to `outputs/` after Section 7:
 - `model_comparison_results.csv / .json` — all answers in tabular form
 - `model_comparison_pivot.csv` — side-by-side answer comparison
 - `model_latency.csv` — per-model, per-question latency
+
+---
+
+## Documentation
+
+- `Discussion.pdf` — full technical write-up covering design decisions, retrieval strategy, prompt engineering, observed failure modes, and model performance analysis
+- `ANSWERS.md` — final answers to all three questions from the two best-performing models (Llama 3.1 70B and Mistral Large 123B), with page-level citations and known limitations
 
 ---
 
