@@ -38,7 +38,7 @@ python -m ipykernel install --user --name=ddl_venv
 
 ### Download models
 
-Models must be available locally before running. The pipeline sets local_files_only=True and will not download at runtime.
+Models must be available locally before running. The pipeline will not download at runtime.
 
 ```python
 from huggingface_hub import snapshot_download
@@ -76,7 +76,21 @@ The PDFs are not included in this repository. They are provided separately with 
 
 ## Running the Pipeline
 
-Open `LLM-RAG.ipynb` and run cells top to bottom.
+```bash
+# 1. Navigate to the project directory
+cd DDL_LLM-RAG_Assignment
+
+# 2. Activate the environment
+source ddl_venv/bin/activate
+
+# 3. Launch Jupyter
+jupyter lab
+# or: jupyter notebook
+```
+
+Open `LLM-RAG.ipynb` and run all cells top to bottom (**Kernel → Restart & Run All**, or run each cell in order).
+
+Make sure the four PDF files and all model weights are in place before running — the pipeline will error immediately if either is missing.
 
 | Section | What it does |
 |---|---|
@@ -91,7 +105,9 @@ Open `LLM-RAG.ipynb` and run cells top to bottom.
 | 11. Ground Truth | Reference answers for all three questions |
 | 12. Approach & Limitations | Discussion notes |
 
-**Expected runtime:** ~10–20 min per small model, ~40–90 min per large quantised model.
+Full verbose output (model loading, per-question answers, errors) is written to `rag_run.log` in the project root. The notebook prints a short progress summary only.
+
+**Expected runtime:** ~10–20 min per small model, ~40–90 min per large quantised model. Total wall time for all four large models on a single H100 is approximately 3–4 hours.
 
 ---
 
