@@ -16,7 +16,7 @@ Retrieval-Augmented Generation pipeline for extracting sustainability data from 
 ├── VectorStore.py         # FAISS + BM25 hybrid retrieval with cross-encoder reranking
 ├── RAGEngine.py           # Prompt construction, LLM inference, multi-model runner
 ├── GroundTruth.py         # Verified reference answers for all three questions
-├── LLM-RAG.ipynb      # Main notebook — run end to end
+├── LLM-RAG.ipynb          # Main notebook — run end to end
 ├── requirements.txt       # Python dependencies
 └── outputs/               # Per-model answer .txt files, CSV/JSON exports
 ```
