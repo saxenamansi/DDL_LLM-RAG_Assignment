@@ -9,7 +9,7 @@ Retrieval-Augmented Generation pipeline for extracting sustainability data from 
 ## Repository Structure
 
 ```
-8_DDL-EnviroLab/
+DDL_LLM-RAG_Assignment/
 ├── Config.py              # Models, paths, chunking parameters
 ├── DataClasses.py         # Shared dataclasses (PageRecord, Chunk)
 ├── Chunking.py            # PDF loading + table-aware chunking
