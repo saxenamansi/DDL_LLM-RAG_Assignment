@@ -1,0 +1,311 @@
+======================================================================
+Model     : meta-llama/Llama-3.1-70B-Instruct
+Key       : llama_70b
+Size      : 70B
+Precision : 4-bit (bitsandbytes)
+======================================================================
+
+── Q1_emissions_energy ────────────────────────────────────────
+Question : Extract Scope 1, Scope 2, Scope 3 emissions and total energy consumption for 2023, 2024 and 2025 for all companies. If the data is not present, leave the result empty.
+Latency  : 58.32s | Tokens: 1123 | stop
+
+Answer:
+### JFE Holdings
+
+Based on the provided source material, here are the extracted values:
+
+**Scope 1 Emissions**
+
+* 2023: 51.0 Mt CO2e ([1] Page 259)
+* 2024: Not available
+* 2025: Not available
+
+**Scope 2 Emissions**
+
+* 2023: 44.0 Mt CO2e ([1] Page 259)
+* 2024: Not available
+* 2025: Not available
+
+**Scope 3 Emissions**
+
+* 2023: 723 kt CO2e (Category 3: Fuel and energy-related activities) + 434 kt CO2e (Category 4: Upstream transportation and delivery) = 1157 kt CO2e ([5] Page 261)
+* 2024: Not available
+* 2025: Not available
+
+**Total Energy Consumption**
+
+* 2023: Not available
+* 2024: Not available
+* 2025: Not available
+
+Note that the data for 2024 and 2025 is not available in the provided source material.
+
+---
+
+### JSW Steel
+
+Based on the provided source material, here are the extracted emissions and energy consumption data for JSW Steel:
+
+**Scope 1 Emissions:**
+
+* 2023: 5,31,00,751.63 tonnes CO2 [3]
+* 2024: Not available
+* 2025: Not available
+
+**Scope 2 Emissions:**
+
+* 2023: 10,61,079.00 tonnes CO2 [14]
+* 2024: 16,53,056.65 tonnes CO2 [14]
+* 2025: Not available
+
+**Scope 3 Emissions:**
+
+* 2023: 6,967,897.00 tonnes CO2 [1]
+* 2024: 8,693,479.00 tonnes CO2 [1]
+* 2025: Not available
+
+**Total Energy Consumption:**
+
+* No explicit data found for total energy consumption in GJ. However, some energy-related metrics are mentioned, such as:
+	+ Total Scope 1 and Scope 2 emissions intensity per unit of revenue (in Ton CO2/I) [4]
+	+ Total Scope 1 and Scope 2 emissions intensity per unit of physical output (in Ton CO2/tcs) [5]
+
+Please note that the data might not be comprehensive, as it depends on the provided source material.
+
+---
+
+### POSCO
+
+Based on the provided source materials, here are the extracted Scope 1, Scope 2, and Scope 3 emissions, as well as total energy consumption for POSCO:
+
+**Scope 1 & 2 Emissions**
+
+* 2023:
+	+ Scope 1: 69,665,353 tCO2e ([3] Page 154)
+	+ Scope 2: 1,399,825 tCO2e ([3] Page 154)
+	+ Total Scope 1 & 2: 71,065,178 tCO2e (calculated by adding Scope 1 and Scope 2)
+* 2024:
+	+ Scope 1: 68,305,993 tCO2e ([1] Page 139)
+	+ Scope 2: 1,383,895 tCO2e ([1] Page 139)
+	+ Total Scope 1 & 2: 69,689,888 tCO2e (calculated by adding Scope 1 and Scope 2)
+
+**Scope 3 Emissions**
+
+* 2023:
+	+ Upstream: 5,054,941 tCO2e ([2] Page 139)
+	+ Downstream: 2,161,846 tCO2e ([2] Page 139)
+	+ Total Scope 3: 7,216,787 tCO2e (calculated by adding upstream and downstream)
+* 2024:
+	+ Upstream: 7,419,787 tCO2e ([1] Page 139)
+	+ Downstream: Not available
+	+ Total Scope 3: Not available due to missing downstream data
+
+**Total Energy Consumption**
+
+* No data available for total energy consumption in GJ.
+
+Note that some data points are missing, especially for Scope 3 downstream emissions and total energy consumption.
+
+---
+
+### Tata Steel UK
+
+Based on the provided source material, here are the extracted Scope 1, Scope 2, Scope 3 emissions, and total energy consumption for 2023, 2024, and 2025 for Tata Steel UK:
+
+* Scope 1 emissions:
+	+ 2023: 6.1 million tonnes CO2e [1]
+	+ 2024: Not available
+	+ 2025: Not available
+* Scope 2 emissions:
+	+ 2023: 0.1 million tonnes CO2e [1]
+	+ 2024: Not available
+	+ 2025: Not available
+* Scope 3 emissions:
+	+ 2023: 1.7 million tonnes CO2e [1]
+	+ 2024: Not available
+	+ 2025: Not available
+* Total energy consumption:
+	+ 2023: Not available (only CO2 intensity is mentioned)
+	+ 2024: Not available
+	+ 2025: Not available
+
+Note that the data for 2024 and 2025 is not available in the provided source material.
+
+Sources:
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.259
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.66
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.62
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.309
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.261
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.91
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.260
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.258
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.296
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.277
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.262
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.269
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.261
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.311
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.266
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.62
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.56
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.258
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.15
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.15
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.17
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.2
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.11
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.1
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.15
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.15
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - POSCO | POSCO_Sustainability_2024.pdf | p.139
+  - POSCO | POSCO_Sustainability_2024.pdf | p.139
+  - POSCO | POSCO_Sustainability_2024.pdf | p.154
+  - POSCO | POSCO_Sustainability_2024.pdf | p.170
+  - POSCO | POSCO_Sustainability_2024.pdf | p.1
+  - POSCO | POSCO_Sustainability_2024.pdf | p.16
+  - POSCO | POSCO_Sustainability_2024.pdf | p.16
+  - POSCO | POSCO_Sustainability_2024.pdf | p.139
+  - POSCO | POSCO_Sustainability_2024.pdf | p.111
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.52
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.2
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.48
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.14
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.6
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.12
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.8
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.3
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.10
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.5
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.53
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.53
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.14
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.28
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.28
+
+──────────────────────────────────────────────────────────────────────
+
+── Q2_ccus ────────────────────────────────────────
+Question : Which companies have installed, operated or tested carbon capture, utilisation or storage (CCUS) technology?
+Latency  : 3.77s | Tokens: 32 | stop
+
+Answer:
+JSW Steel, JFE Holdings, Tata Steel UK, and POSCO have all explored, invested in, or tested CCUS technology in some form.
+
+Sources:
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.104
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.120
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.123
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.73
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.72
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.123
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.49
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.12
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.51
+  - POSCO | POSCO_Sustainability_2024.pdf | p.13
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.56
+  - POSCO | POSCO_Sustainability_2024.pdf | p.13
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.28
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.91
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.31
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.31
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - POSCO | POSCO_Sustainability_2024.pdf | p.20
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.103
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.49
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.4
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.31
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.119
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.287
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.287
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.156
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.32
+  - POSCO | POSCO_Sustainability_2024.pdf | p.164
+  - POSCO | POSCO_Sustainability_2024.pdf | p.165
+  - POSCO | POSCO_Sustainability_2024.pdf | p.166
+  - POSCO | POSCO_Sustainability_2024.pdf | p.170
+  - POSCO | POSCO_Sustainability_2024.pdf | p.59
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - POSCO | POSCO_Sustainability_2024.pdf | p.65
+  - POSCO | POSCO_Sustainability_2024.pdf | p.16
+
+──────────────────────────────────────────────────────────────────────
+
+── Q3_net_zero ────────────────────────────────────────
+Question : What is the net-zero target of each company?
+Latency  : 17.65s | Tokens: 313 | stop
+
+Answer:
+Based on the provided source materials, here's what we know about each company's net-zero target:
+
+1. Tata Steel UK:
+   - Target: Carbon neutrality by 2045 [Source: Tata Steel UK | File: Tata Steel_Sustainability_2025.pdf | Page: 50]
+   - Interim target: Reduce CO2 emissions by 80% by 2030 [Not explicitly stated, but mentioned as part of the company's net-zero plans]
+
+2. JFE Holdings:
+   - Target: Not explicitly stated, but the company aims to become carbon neutral and has set various environmental targets, including reducing CO2 emissions by more than 18% compared to FY2013 [Source: JFE Holdings | File: JFE Holdings_Sustainability_2025.pdf | Page: 50]
+
+3. POSCO:
+   - Target: Not explicitly stated, but the company aims to reduce greenhouse gas emissions and has set various environmental targets, including reducing energy consumption and increasing the use of renewable energy [Source: POSCO | File: POSCO_Sustainability_2024.pdf | Page: 26]
+
+4. JSW Steel:
+   - Target: Reduce CO2 emissions by 42% by 2030, with a goal of achieving net-zero emissions in the long term [Source: JSW Steel | File: JSW Steel_Sustainability_2025.pdf | Page: 14]
+
+Please note that these targets might be subject to change, and the exact wording or specific details might not be provided in the given source materials.
+
+Sources:
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.5
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.13
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.28
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.32
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.115
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.13
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.50
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.242
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.14
+  - Tata Steel UK | Tata Steel_Sustainability_2025.pdf | p.13
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.241
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.27
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.13
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.14
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.246
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.102
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.152
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.4
+  - POSCO | POSCO_Sustainability_2024.pdf | p.151
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.311
+  - POSCO | POSCO_Sustainability_2024.pdf | p.55
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.50
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.151
+  - POSCO | POSCO_Sustainability_2024.pdf | p.158
+  - POSCO | POSCO_Sustainability_2024.pdf | p.158
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.9
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.259
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.111
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.171
+  - POSCO | POSCO_Sustainability_2024.pdf | p.26
+  - POSCO | POSCO_Sustainability_2024.pdf | p.81
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.199
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.296
+  - JFE Holdings | JFE Holdings_Sustainability_2025.pdf | p.245
+  - POSCO | POSCO_Sustainability_2024.pdf | p.62
+  - POSCO | POSCO_Sustainability_2024.pdf | p.38
+  - POSCO | POSCO_Sustainability_2024.pdf | p.146
+  - JSW Steel | JSW Steel_Sustainability_2025.pdf | p.3
+
+──────────────────────────────────────────────────────────────────────
+
